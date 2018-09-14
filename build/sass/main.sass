@@ -1,0 +1,407 @@
+@import "__reset.sass"
+@import 'fonts.sass'
+body
+    font-family:  Arial, Helvetica, sans-serif
+.container
+    max-width: 980px
+    @media screen and (min-width: 1200px)
+        min-width: 1140px
+
+h1 
+    font-family:  Arial, Helvetica, sans-serif
+    font-size: 30px
+    font-family: "Arial"
+    color: #a5adb8
+    font-weight: bold
+    line-height: 0.467
+    text-align: left
+    letter-spacing: 1px
+
+h1::first-letter
+    text-transform: uppercase 
+    color: #ae4b5d  
+
+h2
+    font-size: 24px
+    color: #a5adb8
+    font-weight: bold
+    line-height: 0.583
+    text-align: left
+
+h2::first-letter
+    text-transform: uppercase 
+    color: #ae4b5d  
+
+h3 
+    font-size: 18px
+    color: #282d33
+    font-weight: bold
+    line-height: 0.778
+    letter-spacing: 1px
+    text-align: left
+ 
+p 
+    font-size: 14px
+    color: #5c646e
+    line-height: 1.286
+    letter-spacing: .35px
+
+.main__text
+  font-size: 12px
+  color: #5c646e
+  text-align: left
+  line-height: 1.667
+
+h1, h2, h3, p, .main__text
+    @media (max-width: 991.98px)
+        text-align: center
+
+.header
+    background-size: cover  
+    padding: 17px 0 15px 0px
+    @media (max-width: 991.98px)
+        text-align: center
+        padding: 17px 0 19px 0
+    
+.navbar__logo
+    text-transform: uppercase
+    font-size: 30px
+    color: #a5adb8
+    font-weight: bold
+    line-height: 0.467
+    margin: 5px
+    
+.navbar__logo::first-letter  
+    color: #ae4b5d 
+
+.navbar__text 
+    font-size: 12px
+    color: #626b76
+    font-weight: bold
+    line-height: 1.167
+    @media (max-width: 991.98px)
+        margin: 10px 0
+ 
+.header__form
+    text-align: right
+    @media (max-width: 991.98px)
+        text-align: center
+
+.header__input
+    border: 1px solid #875f66
+    border-radius: 5px
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.25)
+    background-color: #22252a
+    font-size: 14px
+    padding: 7px 36px 10px 5px
+        
+input:focus
+    outline: none 
+    box-shadow: none  ! important 
+    border: 1px solid #875f66
+
+.header__input 
+    font-size: 14px
+    color: #5b636e
+    ::placeholder
+        color: #5b636e
+
+.header__icon
+    margin: 0 6px 0 9px
+
+.btn-secondary
+    padding: 9.5px 9.5px
+    border-radius: 5px
+    background-color: #ae4b5d
+    background-size: cover 
+    line-height: 0
+
+.fas
+    font-size: 14px 
+
+.benefits__rol
+    background-repeat: no-repeat
+    background-size: cover
+    background-repeat: no-repeat
+   
+.benefits__wrap
+    padding: 51px 0 35px 29px
+
+.benefits__part1
+    padding: 0 0 22px 0
+
+.benefit__title
+    padding: 0 0 10px 0
+
+.benefits__title
+    padding: 0 0 9px 0
+
+.benefits__text
+    max-width: 488px
+    @media (max-width: 991.98px)
+        margin: 0 auto       
+
+.benefits__title h3 
+    color: #757b84    
+
+.navbar  
+    display: block
+    padding: 10px 25px 10px
+    @media screen and (max-width: 991.98px)
+        padding: 10px 0 10px 0 
+    
+.navbar__nav
+    display: flex
+    justify-content: flex-end
+    @media screen and (max-width: 991.98px)
+        justify-content: center
+
+.nav__item, .nav__link
+    text-decoration: none 
+    font-size: 16px
+    font-weight: bold
+    color: #ffffff
+    letter-spacing: 1px
+    margin: 0 0 0 23px 
+    @media screen and (max-width: 991.98px)
+        margin: 0 0 0 8px   
+    @media (max-width: 575.98px)
+        margin: 0 0 10px 0
+        text-align: center
+
+.lists-inline
+    padding: 4px 0 4px
+    @media (max-width: 991.98px)
+        text-align: center
+
+.main__link
+    font-size: 11px
+    color: #95161f    
+    text-decoration: underline
+    @media (max-width: 991.98px)
+        text-align: center
+
+.last
+    color: #6b6f74
+    text-decoration: none
+    
+.main__form
+    padding: 22px 0px 27px 0px
+    @media (max-width: 991.98px)
+        padding: 22px 0px 27px 10px
+        width: 100%
+    
+.form__title
+    padding: 18px 12px 16px 
+    
+.form__inputs
+    padding: 0px 0 33px 0
+    border: 1px solid #d8dbde
+
+.form__input
+    width: 100%
+    margin: 0 0 11.65px 0
+    padding: 0 7px 0 5px
+
+.form__control
+    width: 100%
+    min-height: 35px
+    border: 1px solid #fffcfc
+    border-radius: 5px
+    background-color: #e3e4e5
+    padding: 0px 12px 0px 14px
+
+    ::placeholder
+        color: #757575
+        font-size: 14px
+
+select 
+     width: 100%
+     ::placeholder
+        color: #757575
+        font-size: 14px
+
+.form__buttons        
+    text-align: center
+   
+.form__button 
+    border: 5px solid #ffffff 
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.19)
+    background-color: #aa212b
+    font-size: 16px
+    color: #ffffff 
+    padding: 11px 18px 9px 18px 
+ 
+.headline__texts    
+    padding: 10px 0
+
+.headline__text
+    letter-spacing: 0    
+
+.headline__item .main__link
+    text-align: left  
+    padding: 0  
+    @media screen and (max-width: 991.98px)
+        text-align: center
+        display: block
+        padding: 10px 0 0 0
+
+.about__title
+    padding: 27px 0 0 0    
+
+.about__paragrafs
+    max-width: 705px
+    word-spacing: -2px
+    line-height: 1.386
+    padding: 16px 0 0px 0
+    @media screen and (max-width: 991.98px)
+        min-width: 100%
+
+.about__link
+    font-size: 14px 
+    color: #95161f   
+    text-decoration: underline
+  
+.card__title
+    padding: 23px 0 16px 0
+    @media screen and (max-width: 991.98px)
+       padding: 7px 0 10px 
+
+.card__img
+    padding: 14px 0 0 0    
+    
+.card__items
+    @media screen and (max-width: 991.98px)
+        display: block
+        margin: 0 auto
+
+.lists__title
+    padding: 21px 0 20px 0
+
+.list__title
+    @media screen and (max-width: 991.98px)
+        text-align: left
+    @media (max-width: 767.98px)
+        text-align: center
+        
+.lists__groups
+    @media (max-width: 767.98px)
+        display: flex
+        justify-content: center
+        margin: 0 0 15px 0
+
+.list__groups
+    padding: 2px 0px 0 0px
+
+.list__groups, .list__group
+    margin-left: 0px
+
+.list__li, .list__li__li
+    font-size: 14px
+    color: #5c646e
+    line-height: 1.714
+
+.list__disk
+    margin-right: 5px
+
+.fa-circle
+    font-size: 5px
+
+.list__group
+    padding: 0 0 0 17px
+
+.table__title
+    margin: -5px 0 23px 0
+
+.mains__tables
+    padding: 0 0 49px 0
+
+.main__table
+    background-color: #282d33
+    border-radius: 4px
+    color: #a5adb8
+    font-size: 12px
+
+tbody th
+    text-align: center
+
+table td, table th  
+    padding: 11px
+
+table td, table th, thead th 
+    border-left: 1px solid  #dee2e6 
+    border-top: 1px solid  #dee2e6 
+
+
+.table thead th    
+    padding: 10px 13px
+    border-bottom: 1px solid #dee2e6
+    text-align: center
+
+thead
+    background-color: #9c4757
+    color: #ffffff
+    font-weight: bold    
+
+.table__link  
+    color: #d08b98  
+
+footer 
+    background-color: #273030
+    border-top: 8px solid #ae4b5d    
+    color: #a5adb8
+ 
+.footer__titles
+    display: flex
+    align-items: center
+    padding: 30px 0 6px 0
+    border-bottom: 1px solid #191c20
+    @media (max-width: 767.98px)
+        justify-content: center
+        border-bottom: none
+
+footer h3 
+    text-transform: uppercase  
+    color: #a5adb8  
+
+footer h3::first-letter
+    color: #ae4b5d  
+
+.footer__span 
+    font-size: 18px
+    margin: 0 5px
+
+.footers__lists
+    @media (max-width: 767.98px)
+        display: flex
+        justify-content: center
+
+.footers__list
+    padding: 12px 0 16px 8px
+    border-top: 1px solid #40474f
+    @media (max-width: 767.98px)
+        padding: 12px 0 0 0
+
+.footer__list
+    font-size: 12px
+    margin-bottom: 12px
+
+.fa-clock
+    margin-right: 10px 
+
+footer .fa-circle  
+    margin-right: 12px 
+       
+footer .fa-circle, .fa-clock
+    color: #9c4757 
+
+.contacts__text
+    text-decoration: none
+    color: #a5adb8  
+
+.contacts__texts
+    color: #9c4757 
+
+.contact__text
+    color: #9fa7b1
+    font-weight: bold   

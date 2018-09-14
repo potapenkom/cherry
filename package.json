@@ -1,0 +1,66 @@
+{
+  "name": "gulp-boilerplate",
+  "version": "0.0.1",
+  "description": "QuickStart project",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "config": {
+    "src": {
+      "all": "src/**/*.*",
+      "html": "src",
+      "sass": "src/sass",
+      "js": "src/js",
+      "img": "src/img"
+    },
+    "build": {
+      "html": "build",
+      "css": "build/css",
+      "js": "build/js",
+      "img": "build/img"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potapenkom/gulp-boilerplate.git"
+  },
+  "author": "Mikhail Potapenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potapenkom/gulp-boilerplate/issues"
+  },
+  "homepage": "https://github.com/potapenkom/gulp-boilerplate#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "cssnano": "^4.0.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-image": "^4.3.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-nunjucks": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-touch": "^1.0.1",
+    "require.dir": "^0.3.0",
+    "run-sequence": "^2.2.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.17.1",
+    "webpack-stream": "^5.1.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.1.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "browser-sync": "^2.24.6",
+    "config": "^2.0.1",
+    "gulp.spritesmith": "^6.9.0",
+    "jquery": "^3.3.1",
+    "merge-stream": "^1.0.1",
+    "mongodb": "^3.1.4",
+    "postcss-cli": "^6.0.0",
+    "require-dir": "^1.0.0",
+    "vinyl-buffer": "^1.0.1"
+  }
+}
