@@ -155,6 +155,9 @@ input:focus
     justify-content: flex-end
     @media screen and (max-width: 991.98px)
         justify-content: center
+    @media (max-width: 575.98px)
+        flex-direction: column
+    
 
 .nav__item, .nav__link
     text-decoration: none 
@@ -323,12 +326,19 @@ select
     border-radius: 4px
     color: #a5adb8
     font-size: 12px
+    @media (max-width: 575.98px)
+        font-size: 9px
+
 
 tbody th
     text-align: center
 
 table td, table th  
     padding: 11px
+    @media (max-width: 575.98px)
+        padding: 8px
+
+
 
 table td, table th, thead th 
     border-left: 1px solid  #dee2e6 
@@ -339,6 +349,10 @@ table td, table th, thead th
     padding: 10px 13px
     border-bottom: 1px solid #dee2e6
     text-align: center
+    @media (max-width: 575.98px)
+        padding: 8px
+
+
 
 thead
     background-color: #9c4757
